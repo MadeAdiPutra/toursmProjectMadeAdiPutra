@@ -1,0 +1,120 @@
+.text-baru{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,70%);
+  background-color: rgba(156, 156, 156, 0.1); 
+  color: rgb(23, 201, 0);
+}
+ body{
+   background-color: orange;
+ }
+ .none{
+   height: 900px;
+ }
+ .aku{
+  filter: contrast(1.2) saturate(1.7) sepia(0.6);
+  border: greenyellow solid 6px;
+  width: 100%;
+ }
+ .card-group img{
+   height: 300px;
+   box-shadow: 0 0 15px rgb(10,10,10,10);
+   border:  rgb(0, 0, 0) solid 7px;
+
+ }
+ .navbar{
+   background: rgba(0, 0, 0, 0.521);
+   border: 5px black solid;
+ }
+ .nama{
+   color: rgb(255, 251, 0);
+   background-color:  rgba(43, 41, 41, 0.2);
+ }
+ .Lihat{
+   margin-top: 50px;
+ }
+ .Lihat2{
+   margin-bottom: 10px;
+ }
+ .Lihat3{
+   margin-top: 20px;
+ }
+ .Font{
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: maroon;
+ }
+ .foto1{
+   height: 70px;
+   margin-right: 10px;
+ }
+ .foto2{
+   height: 70px;
+ }
+ .garis{
+   background-color: aliceblue;
+   border: whitesmoke solid 2px;
+ }
+ .Kalimat{
+  text-align: center;
+  margin-top: 20px;
+  color: maroon;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+ }
+ a:hover{
+   color: black;
+   text-decoration: none;
+ }
+ .h3{
+   text-align: center;
+   margin-left: 18px;
+ }
+ .p{
+   font-size: 25px;
+   text-align: center;
+   margin-inline-start: 17px;
+ }
+ .buy{
+  display: inline-block;
+  margin-left: 45%;
+  margin-top: 15px;
+	text-decoration: none;
+	background-color: orange;
+	color: maroon;
+  width: 150px;
+  text-align: center;
+  animation-name: harga;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+	height: 70px;
+	padding-top: 11px;
+	line-height:50px;
+	border-radius: 5px;
+	box-shadow: 0 0 15px rgba(10,10,10,1);
+ }
+ @keyframes harga{
+  0%{
+      background-color: aqua; transform: rotateX(180deg);
+      background-color: aquamarine;
+  }
+  50%{
+      background-color: goldenrod;
+      background-color: darkslateblue;
+  }
+  100%{
+      background-color: darkgreen;
+      background-color: orange;
+  }
+}
+.sange img:hover{
+  filter: brightness(50%);
+  
+}
+.sange img{
+  transition: 0.5s;
+}

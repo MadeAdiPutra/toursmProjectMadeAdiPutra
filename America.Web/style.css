@@ -1,0 +1,107 @@
+.card-group img{
+    height: 300px;
+    box-shadow: 0 0 15px rgb(10,10,10,10);
+    border:  rgb(0, 0, 0) solid 7px;
+    
+}
+body{
+    background-color: orange;
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.514);
+    border: 5px black solid;
+}
+.none{
+    height: 900px;
+}
+.IG{
+    height: 90px;
+    margin-left: 40%;
+}
+.Fb{
+    height: 100px;
+}
+.tw{
+    height: 100px;
+}
+.card-text{
+    font-size: 20px;
+}
+.Terakhir{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(11, 0, 167);
+}
+.cartun{
+    height: 150px;
+    margin-left: 43%;
+}
+.gambar{
+    height: 300px;
+    width: 900px;
+}
+.button{
+    font-size: 20px;
+}
+.class{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.tulisan{
+    font-size: 25px;
+}
+.sange img:hover{
+    filter: brightness(50%);
+    
+}
+.sange img{
+    transition: 0.5s;
+}
+.h2{
+    font-size: 29px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pertama{
+    font-size: 24px;
+}
+.h3{
+    font-size: 27px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hr{
+ border-bottom: 5px whitesmoke solid; 
+}
+.bd-example{
+    border: 5px yellow solid;
+}
+.inspirasi{
+    text-align: center;
+     animation-name: inspirasi; 
+}
+.bagian-tengah{
+    margin-top: 90px;
+}
+.bagian-bawah{
+    margin-top: 60px;
+}
+.kata-pertama{
+    position: absolute;
+    bottom: 70%;
+    left: 50%;
+    transform: translate(-50%,70%);
+    /* background-color: rgba(0, 0, 0, 0.2);  */
+    color: rgb(11, 0, 168,0.5);
+}
+.jalan{
+    font-size: 20px;
+    border-bottom: 5px rgba(0, 0, 0, 0.5) solid;
+}
+.li{
+    font-size: 20px;
+}
+@keyframes inspirasi{
+     25%{
+         background-color: maroon; 
+         transform: rotateX(180);
+     }
+}

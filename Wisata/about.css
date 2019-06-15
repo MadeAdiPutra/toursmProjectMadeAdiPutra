@@ -1,0 +1,95 @@
+h1{
+	font-size: 32px;
+	text-align: center;
+}
+body{
+	background-color: whitesmoke;
+}
+a{
+	font-size: 20px;
+}
+/*Menu*/
+nav{
+	text-align: center;
+	background: black;
+}
+nav li{
+	display: inline-block;
+}
+nav li a{
+	padding: 10px 20px;
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+nav li a:hover{
+	background: white;
+	color: black;
+}
+
+
+
+/*content*/
+.Box-foto{
+	width: 30%;
+	float: left;
+}
+.Box-tulisan{
+	width:  70%;
+	float: left;
+}
+
+.Box-tulisan p{
+     padding-left: 20px;
+}
+.Box-foto{
+	padding-top: 15px;
+}
+
+.Content h2{
+	text-align: center;
+}
+.about{
+	font-size: 22px;
+	
+}
+.item{
+	width: 24%;
+	float: left;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	padding-bottom: 10px; 
+}
+
+
+.clear{
+	clear: both;
+}
+
+.box-contact{
+	width: 50%;
+	float: left;
+}
+.box-contact input,
+.box-contact textarea{
+	width: 100%; 
+	padding: 10px 0px;
+	margin-top: 10px;
+	}
+	.box-contact button{
+		padding: 10px 20px; 
+		background:black;
+		color:white;
+	   float:right;
+	}
+	.group-form{
+		margin-bottom: 20px;
+	}
+	.box-contact .info{
+		padding-left: 20px;
+	}
+
+footer{
+	clear: both;
+	text-align: center;
+}

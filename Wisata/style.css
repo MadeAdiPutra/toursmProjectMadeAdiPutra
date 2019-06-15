@@ -1,0 +1,48 @@
+.gambar{
+    height: 300px;
+    width: 50%;
+}
+body{
+    background-color: orange;
+}
+.click{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.em{
+    font-size: 30px;
+}
+.kata{
+    font-size: 25px;
+}
+.Nomor{
+    font-size: 20px;
+}
+.huruf{
+    font-family: "Times New Roman",sans-serif;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+p{
+    font-size: 20px;
+}
+.edit{
+    font-size: 20px;
+    color: rgb(11, 0, 167);
+    font-family: "Times New Roman",serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.IG{
+    height: 90px;
+    margin-left: 40%;
+}
+.Fb{
+    height: 100px;
+}
+.tw{
+    height: 100px;
+}
+.p{
+    font-size: 23px;
+}

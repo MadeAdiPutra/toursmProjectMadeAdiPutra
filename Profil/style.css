@@ -1,0 +1,74 @@
+body{
+    margin:  0;
+    padding: 0;
+    background: url(lol.jpg)no-repeat;
+    background-size: cover;
+}
+.box-img{
+    width: 270px;
+    border-radius: 50%;
+    height: 270px;
+}
+.h3{
+    text-align: center;
+    margin-left: 80px;
+    font-size: 20px; 
+    margin-top: 10px;
+    color: rgb(0, 255, 0);
+}
+.img{
+    height: 50px;
+}
+.pembuka{
+    text-align: center;
+    margin-left: 170px;
+    color: orange;
+}
+.penutup{
+    text-align: center;
+    margin-left: 120px;
+    color: orange;
+}
+.box{
+    width: 450px;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.box h1{
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out;
+}
+.box li a:hover{
+    color: #afafaf;
+}
+    
